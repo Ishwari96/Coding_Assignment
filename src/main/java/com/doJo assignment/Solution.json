@@ -1,0 +1,26 @@
+http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=dc37ddcdc461d966a44af81384105df6
+
+
+imple application that requests its data from OpenWeather and stores the result in a database. 
+
+
+https://openweathermap.org/
+
+
+
+It's possible to generate the API key going to the OpenWeather Sign up page
+
+https://openweathermap.org/appid
+
+
+
+
+{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":100},"wind":{"speed":2.72,"deg":349,"gust":4.85},
+"visibility":10000,"pop":1,"rain":{"3h":0.99},"sys":{"pod":"d"},"dt_txt":"2021-05-29 09:00:00"},{"dt":1622289600,
+"main":{"temp":285.63,"feels_like":285.36,"temp_min":285.63,"temp_max":285.63,"pressure":1009,"sea_level":1009,"grnd_level":991,
+"humidity":93,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}
+
+
+https://developer.okta.com/blog/2018/12/13/build-basic-app-spring-boot-jpa
+
+final URL

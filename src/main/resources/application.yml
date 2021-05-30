@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: weather-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: admin
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/weather
+  jpa:
+    hibernate:
+      ddl-auto: update
+     
+    properties:
+      hibernate:  
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+  open-weather:
+    appid: dc37ddcdc461d966a44af81384105df6
+    url: http://api.openweathermap.org/data/2.5/weather?q={city}&APPID=${spring.open-weather.appid}
