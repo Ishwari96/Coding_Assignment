@@ -1,6 +1,16 @@
 # Coding_Assignment
 coding-dojo-spring-boot app
 
+# Questions or Enhancements
+
+1.  More validation can be added but want to know client requirements
+2.  http://localhost:8080/api/weather?city={AnyCity} this URL path is looks good ?
+3.  If city is blank or empty as of now added custom Exception to displayed message to user "City is invalid" but what is expected ?
+4.  If response code is 404 i.e if city is invalid or does not exists then need to add error ?
+5.  All SonarQube issues are resolved using SonarLint
+6.  For now storing city,country,temperature with auto generated ID in DB; more details need to store ? which ?
+7.  In this POC attached my apikey but OAuth should be implemented or what is required ?
+
 ## Solution
 
 API key is generated from https://openweathermap.org/appid
