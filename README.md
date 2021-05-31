@@ -27,7 +27,7 @@ There are several ways to run a Spring Boot application on your local machine. O
 
 1.	Download/Clone the project on to your local machine and follow solution steps
 2.	Run the project on your machine
-3.	Send a GET request in postman http://localhost:8081/api/weather?city="AnyCity"
+3.	Send a GET request in postman or open browser using http://localhost:8081/api/weather?city="AnyCity"
 4.  Open Postgres and confirm if weather table is created and data saved
 
 
