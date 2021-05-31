@@ -10,6 +10,7 @@ coding-dojo-spring-boot app
 5.  All SonarQube issues are resolved using SonarLint
 6.  For now storing city,country,temperature with auto generated ID in DB; more details need to store ? which ?
 7.  In this POC attached my apikey but OAuth should be implemented or what is required ?
+8.  Need to add info/error loggers 
 
 ## Solution
 
